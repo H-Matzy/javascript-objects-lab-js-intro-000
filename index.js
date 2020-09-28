@@ -3,6 +3,6 @@ var recipes = {key, value};
 function updateObjectWithKeyAndValue(o, k, v){
   return o
   var update
-  update= o[k]=v
+  update= (o[k]=v, recipes)
   return update
 }

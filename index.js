@@ -13,5 +13,4 @@ return update;
 }
 function destructivelyDeleteFromObjectByKey(object, key){
   delete object.key;
-  object;
 }

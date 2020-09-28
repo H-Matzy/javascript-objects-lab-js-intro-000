@@ -1,7 +1,7 @@
-var recipes = {object, key, variable};
+var recipes = {key, variable};
 
 function updateObjectWithKeyAndValue(o, k, v){
   return recipes
-  var update = Object.assign({object: o},{key: k},{variable:v})
+  var update = o[k] = v
   return update
 }
